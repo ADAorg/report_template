@@ -1,0 +1,13 @@
+/* Adjust title block spacing to sit below the custom header */
+.quarto-title {
+  margin-top: 0;
+}
+
+/* Style the header and footer */
+#report-header {
+  font-family: inherit;
+}
+
+#report-footer {
+  font-family: inherit;
+}

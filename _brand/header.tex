@@ -1,0 +1,17 @@
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{lastpage}
+
+\pagestyle{fancy}
+\fancyhf{}
+
+% Header: logo on the left, text on the right
+\fancyhead[L]{\includegraphics[height=1cm]{_brand/logo.png}}
+\fancyhead[R]{\small Gulbenkian Institute for Molecular Medicine \\ Advanced Data Analysis unit}
+
+% Footer: left text and page numbers on right
+\fancyfoot[L]{\small\textcolor{gray}{Confidential}}
+\fancyfoot[R]{\small\textcolor{gray}{Page \thepage\ of \pageref{LastPage}}}
+
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}

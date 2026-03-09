@@ -1,0 +1,18 @@
+project:
+  type: default
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    include-before-body: _brand/header.html
+    include-after-body: _brand/footer.html
+    css: _brand/style.css
+  pdf:
+    documentclass: article
+    include-in-header: _brand/header.tex
+    geometry:
+      - top=3cm
+      - bottom=2.5cm
+      - left=2.5cm
+      - right=2.5cm
