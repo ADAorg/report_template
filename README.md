@@ -14,6 +14,9 @@ git clone github.com/ADAorg/report_template report/
 ```
 where report/ is the directory where you will have your report.
 
-**One caveat**: You probably should delete the .git from this repository after cloning, so that it doesn't interferes with the .git of the project. Otherwise, if you add the report directory to the projects git, you may run into trouble.
+**Caveats**: 
+
+1. You probably should delete the .git from this repository after cloning, so that it doesn't interferes with the .git of the project. Otherwise, if you add the report directory to the projects git, you may run into trouble.
+2. You should do the rendering in the `report` folder so that quarto can find the logo image under _brand/logo.png. Otherwise, it won't find it.
 
 
