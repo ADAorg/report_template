@@ -14,4 +14,6 @@ git clone github.com/ADAorg/report_template report/
 ```
 where report/ is the directory where you will have your report.
 
+**One caveat**: You probably should delete the .git from this repository after cloning, so that it doesn't interferes with the .git of the project. Otherwise, if you add the report directory to the projects git, you may run into trouble.
+
 
